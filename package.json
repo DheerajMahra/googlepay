@@ -1,0 +1,17 @@
+{
+  "name": "googlepay",
+  "version": "1.0.0",
+  "description": "Google pay clone",
+  "main": "index.js",
+  "scripts": {
+    "devserver": "live-server",
+    "watch-sass": "node-sass ./sass/main.scss ./css/style.css -w",
+    "start": "concurrently \"npm run devserver\" \"npm run watch-sass\""
+  },
+  "author": "Dheeraj Mahra",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
